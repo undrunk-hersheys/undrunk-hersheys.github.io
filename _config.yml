@@ -1,4 +1,4 @@
-title: no style, please! # name of the site
+title: undrunk_hersheys' github blog # name of the site
 author: undrunk-hersheys # name of site's author
 email: tgho2000@gmail.com # email of site's author
 url: https://undrunk-hersheys.github.io # root address of the site
@@ -8,7 +8,7 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "favicon.ico" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
