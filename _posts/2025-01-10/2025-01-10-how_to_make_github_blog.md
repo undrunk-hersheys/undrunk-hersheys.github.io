@@ -14,5 +14,5 @@ In the github, web files like html are hosted for free. This is Github Page. And
 ## How to make Github Page
 To make Github Blog, Github Page needs to be set up first. _
 
-![GitHub IO](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.io/main/_posts/2025-01-10/github_io.png){:.ioda}
+![GitHub IO](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/2025-01-10/github_io.png){:.ioda}
 
