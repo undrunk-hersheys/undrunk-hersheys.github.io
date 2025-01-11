@@ -65,7 +65,7 @@ And go to the local clone repository of the github.io.
 
 cd (your_repository_location)
 
-### Installing Jekyll
+#### Installing Jekyll
 And install Jekyll by 
 ```
 gem install jekyll bundler
