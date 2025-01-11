@@ -51,7 +51,7 @@ And see if it works.
 This is the simple test for the github blog and now wil go on github theme. First we need Ruby and Jekyll. But before that we need to choose which theme that will be used in blog. Since every theme may require different version of the Ruby or Jekyll, (we can upgrade but since that is bothering for bit, but will explain about this too).  
 
 ### Applying Theme
-You mayu choose any theme in http://jekyllthemes.org/. or https://github.com/topics/jekyll-theme. Or just google it whatever you like. For my undrunk-hersheys github blog, I chose the no-style-please. https://github.com/riggraz/no-style-please. Every theme is little different but overall they are alike. Choose the right theme for you.  
+You mayu choose any theme in [jekyllthemepage]](http://jekyllthemes.org/). or https://github.com/topics/jekyll-theme. Or just google it whatever you like. For my undrunk-hersheys github blog, I chose the no-style-please. https://github.com/riggraz/no-style-please. Every theme is little different but overall they are alike. Choose the right theme for you.  
 
 #### Installing Ruby
 And install Ruby. Jekyll is made of Ruby so install Ruby first. Go to Ruby installer page and install the Ruby with Devkit. For me I had to download 3.4.1 version for my theme so please look after the README or usage section that describes about. https://rubyinstaller.org/downloads/. When it is intalled, open Start Command Prompt with Ruby. Just search file on windows, but if you wish to open specific version fo the ruby it may locate in the place below.  C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Ruby 3.4.1-1-x64. Deleting it works the same, but it seemed as if downloading higher version automatically uninstall previous version.  
