@@ -54,7 +54,7 @@ This is the simple test for the github blog and now wil go on github theme. Firs
 You mayu choose any theme in http://jekyllthemes.org/. or https://github.com/topics/jekyll-theme. Or just google it whatever you like. For my undrunk-hersheys github blog, I chose the no-style-please. https://github.com/riggraz/no-style-please. Every theme is little different but overall they are alike. Choose the right theme for you.  
 
 #### Installing Ruby
-And install Ruby. Jekyll is made of Ruby so install Ruby first. Go to Ruby installer page and install the Ruby with Devkit. For me I had to download 3.4.1 version for my theme so please look after the README or usage section that describes about. https://rubyinstaller.org/downloads/. When it is intalled, open Start Command Prompt with Ruby. Just search file on windows, but if you wish to open specific version fo the ruby it may locate in the place below.  C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Ruby 3.4.1-1-x64.
+And install Ruby. Jekyll is made of Ruby so install Ruby first. Go to Ruby installer page and install the Ruby with Devkit. For me I had to download 3.4.1 version for my theme so please look after the README or usage section that describes about. https://rubyinstaller.org/downloads/. When it is intalled, open Start Command Prompt with Ruby. Just search file on windows, but if you wish to open specific version fo the ruby it may locate in the place below.  C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Ruby 3.4.1-1-x64. Deleting it works the same, but it seemed as if downloading higher version automatically uninstall previous version.  
 
 When open the terminal, you will see the black terminal window, type  
 ```
@@ -65,6 +65,7 @@ And go to the local clone repository of the github.io.
 
 cd (your_repository_location)
 
+### Installing Jekyll
 And install Jekyll by 
 ```
 gem install jekyll bundler
@@ -79,6 +80,34 @@ bundle exec jekyll serve
 ```
 This make the local server for website, so go to http://127.0.0.1:4000/ (for the no-style-please you need to change the _config.yml baseurl to "/no-style-please" -> "")  
 If the page look same of .html, it has worked successfully.
+
+Some error may occur in here  
+```
+Because every version of no-style-please depends on Ruby >= 3.4
+  and Gemfile depends on no-style-please >= 0,
+  Ruby >= 3.4 is required.
+So, because current Ruby version is = 3.3.2,
+  version solving has failed.
+
+OR 
+
+C:\Users\\Coding\undrunk-hersheys.github.io> bundle exec jekyll serve
+Could not find compatible versions
+
+Because every version of no-style-please depends on jekyll ~> 3.10.0
+  and jekyll ~> 3.10.0 could not be found in locally installed gems,
+  no-style-please cannot be used.
+So, because Gemfile depends on no-style-please >= 0,
+  version solving has failed.
+
+```
+It has happened becuase the version for ruby or jekyll is not fit with the theme. 
+for the ruby uninstall the ruby and reinstall the correct version. (This takes time since ruby takes time to download.). For jekyll, type or retype install command on new ruby terminal.   
+```
+gem uninstall jekyll
+gem install jekyll -v 3.10.0
+```
+
 
 To apply the demo page, clone the theme from the github or donwload compressed file. For the compressed file you just need to copy and paste all the files and overwrite all the folders to local io directory.  
 For the cloning, github, clone in the local io directory and move everything except for .git file(this is hidden file so View->Show/Hide->HIdden items). Delete .git of the cloned theme (not github.io repos' .git file). And then cut and paste all other files to github.io repository.   
@@ -105,6 +134,8 @@ and see it works same.
 Change the _config.yml to your informations.  
 And other data files are different on which theme you have chosen.  
 
+![Favicon eg](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/2025-01-10/favicon_eg.png){:.ioda}
 
+For the favicon, you can make one for your own in https://favicon.io/. For this blog i have used 16x16 size. Applying method may differ from the theme. 
 
 
