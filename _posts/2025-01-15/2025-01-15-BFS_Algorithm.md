@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BFS "
+title:  "BFS_Algorithm"
 date:   2025-01-15 22:48:10 +0900
 categories: algorithms
 ---
