@@ -2,7 +2,7 @@
 layout: post
 title:  "How_to_make_github_blog "
 date:   2025-01-10 16:42:10 +0900
-categories: programming
+categories: web
 ---
 
 This is the first blog post for this github blog.  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "embedded_hw"
+title:  "Embedded_HW"
 date:   2025-01-19 16:28:00 +0900
 categories: embedded
 ---
