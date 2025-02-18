@@ -14,11 +14,11 @@ In the github, web files like html are hosted for free. This is Github Page. And
 ### How to make Github Page
 To make Github Blog, Github Page needs to be set up first. Create new repository with the name of own username. (username.github.io) e.g.)undrunk-hersheys.github.io like image below.  
 
-![GitHub IO](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/2025-01-10/github_io.png){:.ioda}
+![GitHub IO](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/web/github_io.png){:.ioda}
 
 Go to the settings of username.github.io's repository -> pages. 
 
-![Settings Pages](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/2025-01-10/settings_pages.png){:.ioda}
+![Settings Pages](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/web/settings_pages.png){:.ioda}
 
 You will see Source with save button. Click on that Save buttons and your website will be published. It may take about max 10 minutes long especially when it is publishing for the first time.  
 
@@ -164,7 +164,7 @@ plugins:
 ```
 And other data files are different on which theme you have chosen.  
 
-![Favicon eg](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/2025-01-10/favicon_eg.png){:.ioda}
+![Favicon eg](https://raw.githubusercontent.com/undrunk-hersheys/undrunk-hersheys.github.io/main/_posts/web/favicon_eg.png){:.ioda}
 
 For the favicon, you can make one for your own in [favicon](https://favicon.io/). For this blog i have used 16x16 size. Applying method may differ from the theme. 
 
